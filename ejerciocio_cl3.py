@@ -27,7 +27,7 @@ Para simular el menú de opciones hacer uso del bucle while y para la selección
 
 
 
-mi_lista = []
+""" mi_lista = []
 # print(type(mi_lista))
 
 ciudades = input("ingrese 4 ciudades: ")
@@ -38,4 +38,14 @@ a,b,c,d = t_ciudades
 print(a)
 # print(b)
 # print(c)
-print(d)
+print(d) """
+
+""" calculo de un circulo """
+diametro = float(input("ingrese el diametro: "))
+radio = diametro / 2
+print(radio)
+
+PI = 3.141592
+area = PI * (radio**2)
+print(area)
+
