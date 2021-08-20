@@ -26,8 +26,9 @@ Generar un commit por objetivo cumplido y pushear a GitHub
 Para simular el menú de opciones hacer uso del bucle while y para la selección de opciones utilizar if elif else."""
 
 
+mi_lista = []
 
-""" mi_lista = []
+""" 
 # print(type(mi_lista))
 
 ciudades = input("ingrese 4 ciudades: ")
@@ -41,11 +42,32 @@ print(a)
 print(d) """
 
 """ calculo de un circulo """
-diametro = float(input("ingrese el diametro: "))
+""" diametro = float(input("ingrese el diametro: "))
 radio = diametro / 2
 print(radio)
 
 PI = 3.141592
 area = PI * (radio**2)
-print(area)
+print(area) """
+
+"""punto 4 """
+
+"ingrese 7 numeros y almacenarlos en mi_lista , recorrerlos con for para mostrar por consola el mensaje indice pertenece a tal elemento"
+
+
+mis_numeros = input("ingrese 7 numeros: ")
+numeros_split = mis_numeros.split()
+mi_lista.extend(numeros_split)
+
+""" for elem in numeros_split:
+   mi_lista.append(elem) """
+
+for elem in mi_lista:
+   print( mi_lista.index(elem), " => ", elem)
+   
+
+
+
+
+
 
