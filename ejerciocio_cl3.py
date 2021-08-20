@@ -55,19 +55,24 @@ print(area) """
 "ingrese 7 numeros y almacenarlos en mi_lista , recorrerlos con for para mostrar por consola el mensaje indice pertenece a tal elemento"
 
 
-mis_numeros = input("ingrese 7 numeros: ")
+""" mis_numeros = input("ingrese 7 numeros: ")
 numeros_split = mis_numeros.split()
-mi_lista.extend(numeros_split)
+mi_lista.extend(numeros_split) """
 
 """ for elem in numeros_split:
    mi_lista.append(elem) """
 
-for elem in mi_lista:
-   print( mi_lista.index(elem), " => ", elem)
+""" for elem in mi_lista:
+   print( mi_lista.index(elem), " => ", elem) """
    
+   
+""" 5- Crear una colección que acepte elementos de tipo clave-valor y almacenar 5 elementos: 
+     nombreDeUsuario - DNI """
 
 
-
+# name_dni = dict( ruben=40182328, martin=8437812, agustina=20946831)
+name_dni = { 'ruben' : 40182328, 'martin' : 8437812, 'agustina' : 20946831}
+print(name_dni)
 
 
 
