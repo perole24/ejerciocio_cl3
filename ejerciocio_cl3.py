@@ -28,4 +28,14 @@ Para simular el menú de opciones hacer uso del bucle while y para la selección
 
 
 mi_lista = []
-print(type(mi_lista))
+# print(type(mi_lista))
+
+ciudades = input("ingrese 4 ciudades: ")
+t_ciudades = tuple(ciudades.split())
+print(t_ciudades)
+
+a,b,c,d = t_ciudades
+print(a)
+# print(b)
+# print(c)
+print(d)
